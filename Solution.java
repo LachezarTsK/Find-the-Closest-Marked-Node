@@ -20,6 +20,7 @@ public class Solution {
         this.numberOfNodes = numberOfNodes;
         this.directedGraph = createDirectedGraph(edges);
         this.markedAsBoolean = createArrayMarkedAsBoolean(markedID);
+        
         return findShortestPathWithDijkstraSearch(startID);
     }
 
